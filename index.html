@@ -21,6 +21,7 @@
             color: #ffffff;
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
             animation: fadeInOut 5s infinite, neonGlow 1.5s infinite alternate;
+            cursor: pointer;
         }
 
         @keyframes fadeInOut {
@@ -35,10 +36,17 @@
     </style>
 </head>
 <body>
-    <div class="centered-text"> KISHAN </div>
-    <audio autoplay loop>
+    <div class="centered-text" onclick="playAudio()"> KISHAN </div>
+    <audio id="myAudio">
         <source src="centuries.mp3" type="audio/mpeg">
-      
+        Your browser does not support the audio element.
     </audio>
+
+    <script>
+        function playAudio() {
+            var audio = document.getElementById("myAudio");
+            audio.play();
+        }
+    </script>
 </body>
 </html>

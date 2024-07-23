@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> KISHAN </title>
+    <title>KISHAN</title>
     <style>
         body, html {
             height: 100%; 
@@ -11,7 +11,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
+            background: #800000;
+            animation: changeBackground 60s infinite;
             font-family: 'Arial', sans-serif;
         }
 
@@ -20,10 +21,114 @@
             font-weight: bold;
             color: #ffffff;
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-            animation: fadeInOut 5s infinite, neonGlow 1.5s infinite alternate;
+            animation: fadeInOut 5s infinite, neonGlow 5s infinite alternate;
             cursor: pointer;
             text-align: center;
             padding: 20px;
+        }
+
+        @keyframes changeBackground {
+            0% { background-color: #800000; }
+            1% { background-color: #8B0000; }
+            2% { background-color: #A52A2A; }
+            3% { background-color: #B22222; }
+            4% { background-color: #DC143C; }
+            5% { background-color: #FF0000; }
+            6% { background-color: #FF6347; }
+            7% { background-color: #FF7F50; }
+            8% { background-color: #CD5C5C; }
+            9% { background-color: #F08080; }
+            10% { background-color: #E9967A; }
+            11% { background-color: #FA8072; }
+            12% { background-color: #FFA07A; }
+            13% { background-color: #FF4500; }
+            14% { background-color: #FF8C00; }
+            15% { background-color: #FFA500; }
+            16% { background-color: #FFD700; }
+            17% { background-color: #B8860B; }
+            18% { background-color: #DAA520; }
+            19% { background-color: #EEE8AA; }
+            20% { background-color: #BDB76B; }
+            21% { background-color: #F0E68C; }
+            22% { background-color: #808000; }
+            23% { background-color: #FFFF00; }
+            24% { background-color: #9ACD32; }
+            25% { background-color: #556B2F; }
+            26% { background-color: #6B8E23; }
+            27% { background-color: #7CFC00; }
+            28% { background-color: #7FFF00; }
+            29% { background-color: #ADFF2F; }
+            30% { background-color: #006400; }
+            31% { background-color: #008000; }
+            32% { background-color: #228B22; }
+            33% { background-color: #00FF00; }
+            34% { background-color: #32CD32; }
+            35% { background-color: #90EE90; }
+            36% { background-color: #98FB98; }
+            37% { background-color: #8FBC8F; }
+            38% { background-color: #00FA9A; }
+            39% { background-color: #00FF7F; }
+            40% { background-color: #2E8B57; }
+            41% { background-color: #66CDAA; }
+            42% { background-color: #3CB371; }
+            43% { background-color: #20B2AA; }
+            44% { background-color: #2F4F4F; }
+            45% { background-color: #008080; }
+            46% { background-color: #008B8B; }
+            47% { background-color: #00FFFF; }
+            48% { background-color: #E0FFFF; }
+            49% { background-color: #00CED1; }
+            50% { background-color: #40E0D0; }
+            51% { background-color: #48D1CC; }
+            52% { background-color: #AFEEEE; }
+            53% { background-color: #7FFFD4; }
+            54% { background-color: #B0E0E6; }
+            55% { background-color: #5F9EA0; }
+            56% { background-color: #4682B4; }
+            57% { background-color: #6495ED; }
+            58% { background-color: #00BFFF; }
+            59% { background-color: #1E90FF; }
+            60% { background-color: #ADD8E6; }
+            61% { background-color: #87CEEB; }
+            62% { background-color: #87CEFA; }
+            63% { background-color: #191970; }
+            64% { background-color: #000080; }
+            65% { background-color: #00008B; }
+            66% { background-color: #0000CD; }
+            67% { background-color: #0000FF; }
+            68% { background-color: #4169E1; }
+            69% { background-color: #8A2BE2; }
+            70% { background-color: #4B0082; }
+            71% { background-color: #483D8B; }
+            72% { background-color: #6A5ACD; }
+            73% { background-color: #7B68EE; }
+            74% { background-color: #9370DB; }
+            75% { background-color: #8B008B; }
+            76% { background-color: #9400D3; }
+            77% { background-color: #9932CC; }
+            78% { background-color: #BA55D3; }
+            79% { background-color: #800080; }
+            80% { background-color: #D8BFD8; }
+            81% { background-color: #DDA0DD; }
+            82% { background-color: #EE82EE; }
+            83% { background-color: #FF00FF; }
+            84% { background-color: #DA70D6; }
+            85% { background-color: #C71585; }
+            86% { background-color: #DB7093; }
+            87% { background-color: #FF1493; }
+            88% { background-color: #FF69B4; }
+            89% { background-color: #FFB6C1; }
+            90% { background-color: #FFC0CB; }
+            91% { background-color: #FAEBD7; }
+            92% { background-color: #F5F5DC; }
+            93% { background-color: #FFE4C4; }
+            94% { background-color: #FFEBCD; }
+            95% { background-color: #F5DEB3; }
+            96% { background-color: #FFF8DC; }
+            97% { background-color: #FFFACD; }
+            98% { background-color: #FAFAD2; }
+            99% { background-color: #FFFFE0; }
+            100% { background-color: #800000; }
         }
 
         @keyframes fadeInOut {
@@ -33,15 +138,15 @@
 
         @keyframes neonGlow {
             0% { text-shadow: 0 0 5px #fff, 0 0 10px #4facfe, 0 0 15px #4facfe, 0 0 20px #4facfe, 0 0 25px #4facfe, 0 0 30px #4facfe, 0 0 35px #4facfe; }
-            100% { text-shadow: 0 0 10px #fff, 0 0 20px #4facfe, 0 0 30px #4facfe, 0 0 40px #4facfe, 0 0 50px #4facfe, 0 0 60px #4facfe, 0 0 70px #4facfe; }
+            100% { text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff69b4, 0 0 15px #ff69b4, 0 0 20px #ff69b4, 0 0 25px #ff69b4, 0 0 30px #ff69b4, 0 0 35px #ff69b4; }
         }
     </style>
 </head>
 <body onclick="playAudio()">
-    <div class="centered-text"> KISHAN </div>
+    <div class="centered-text">KISHAN</div>
     <audio id="myAudio">
         <source src="centuries.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
+       Glitch !!Glitch !! Glitch !!  Your browser does not support this content.Browser Change Maadi!!
     </audio>
 
     <script>

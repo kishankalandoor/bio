@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> KISHAN </title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
+            font-family: 'Arial', sans-serif;
+        }
+
+        .centered-text {
+            font-size: 4em;
+            font-weight: bold;
+            color: #ffffff;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            animation: fadeInOut 5s infinite, neonGlow 1.5s infinite alternate;
+        }
+
+        @keyframes fadeInOut {
+            0%, 100% { opacity: 0; }
+            50% { opacity: 1; }
+        }
+
+        @keyframes neonGlow {
+            0% { text-shadow: 0 0 5px #fff, 0 0 10px #4facfe, 0 0 15px #4facfe, 0 0 20px #4facfe, 0 0 25px #4facfe, 0 0 30px #4facfe, 0 0 35px #4facfe; }
+            100% { text-shadow: 0 0 10px #fff, 0 0 20px #4facfe, 0 0 30px #4facfe, 0 0 40px #4facfe, 0 0 50px #4facfe, 0 0 60px #4facfe, 0 0 70px #4facfe; }
+        }
+    </style>
+</head>
+<body>
+    <div class="centered-text"> KISHAN </div>
+</body>
+</html>
